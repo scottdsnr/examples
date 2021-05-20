@@ -9,7 +9,7 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>
     <body>
-    <div class="text-sm text-gray-900 bg-gray-100">
+    <div class="text-sm text-gray-900 ">
         <nav class="flex justify-between items-center py-4 px-8 text-white bg-gray-900">
             <div class="flex items-center space-x-4">
                 <a href="#" class="text-white hover:text-gray-400"><svg class="w-8 fill-current " viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
@@ -48,7 +48,7 @@
             </div>
         </nav>
         {{--Repo Stats start--}}
-        <div class="flex items-center justify-between px-8 py-4">
+        <div class="flex items-center justify-between px-8 py-4 bg-gray-100">
             <div class="flex">
                 <svg class="w-4 fill-current text-gray-600" viewBox="0 0 16 16"  aria-hidden="true"><path fill-rule="evenodd" d="M4 4v2h-.25A1.75 1.75 0 002 7.75v5.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 13.25v-5.5A1.75 1.75 0 0012.25 6H12V4a4 4 0 10-8 0zm6.5 2V4a2.5 2.5 0 00-5 0v2h5zM12 7.5h.25a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-5.5a.25.25 0 01.25-.25H12z"></path>
                 </svg>
@@ -95,7 +95,7 @@
         </div>
         {{-- Repo Stats end --}}
         {{-- Repo Nav Start --}}
-        <nav>
+        <nav class="bg-gray-100 pt-1">
             <ul class="border-b border-gray-300 flex items-center px-8 mt-4">
                 <li class="font-semibold">
                     <a href="#" class="flex items-center border-b-2 border-red-400 px-4 pb-3">
@@ -166,6 +166,67 @@
             </ul>
         </nav>
         {{--  Repo Nav end  --}}
+        <div class="container mx-auto my-8 px-20 w-3/4 flex">
+            <main class="w-3/4 mr-8 ">
+                <div class="flex items-center justify-between ">
+                    <div class="flex items-center space-x-2">
+                        <button class="border flex border-gray-300 bg-gray-100 hover:bg-gray-200 rounded-md font-semibold items-center  px-3 py-1 space-x-1">
+                            <svg aria-hidden="true" viewBox="0 0 16 16"class="h-4 w-4 fill-current text-gray-500">
+                                <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"></path>
+                            </svg>
+                            <span>Develop</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+                        <a href="#" class="flex items-center space-x-2 px-3 py-1 group text-gray-700">
+                            <svg aria-hidden="true" viewBox="0 0 16 16"class="h-4 w-4 fill-current group-hover:text-blue-400  ">
+                                <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"></path>
+                            </svg>
+                            <span class="text-gray-900 group-hover:text-blue-400">
+                                <span class="font-semibold">2</span>
+                                <span>branches</span>
+                            </span>
+                        </a>
+                        <a href="#" class="flex items-center space-x-2  py-1 group text-gray-700">
+                            <svg aria-hidden="true" viewBox="0 0 16 16" class="h-4 w-4 fill-current group-hover:text-blue-400" >
+                                <path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"></path>
+                            </svg>
+                            <span class="text-gray-900 group-hover:text-blue-400">
+                                <span class="font-semibold">0</span>
+                                <span>tags</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <button class="border flex border-gray-300 bg-gray-100 hover:bg-gray-200 rounded-md font-semibold items-center px-3 py-1 space-x-1">
+                            <span>Go to File</span>
+                        </button>
+                        <button class="border flex border-gray-300 bg-gray-100 hover:bg-gray-200 rounded-md font-semibold items-center  px-3 py-1 space-x-1">
+                            <span>Add File</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+                        <button class="border flex border-green-600 bg-btn-green hover:bg-btn-green-dark rounded-md font-semibold items-center  px-3 py-1 space-x-1 text-white">
+                            <svg class="h-4 w-4 fill-current" viewBox="0 0 16 16" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M7.47 10.78a.75.75 0 001.06 0l3.75-3.75a.75.75 0 00-1.06-1.06L8.75 8.44V1.75a.75.75 0 00-1.5 0v6.69L4.78 5.97a.75.75 0 00-1.06 1.06l3.75 3.75zM3.75 13a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5z">
+                                </path>
+                            </svg>
+                            <span>Code</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+            </main>
+            <aside class="w-1/4">
+
+            </aside>
+        </div>
+
     </div>
     </body>
 </html>

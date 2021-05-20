@@ -10,6 +10,10 @@ module.exports = {
         spacing: {
             '72': '18rem',
         },
+        colors: {
+            'btn-green' : '#2ea44f',
+            'btn-green-dark' : '#2c974b',
+        },
     },
   },
   variants: {
