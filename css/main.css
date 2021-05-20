@@ -4,3 +4,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+body
+{
+    background: linear-gradient(to bottom, #00d2ff, #dff1ff);
+    height: 100vh;
+    font-family: Arial;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header h1
+{
+    margin: 40px 0 ;
+}
