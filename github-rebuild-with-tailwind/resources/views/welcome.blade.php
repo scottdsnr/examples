@@ -174,7 +174,7 @@
                             <svg aria-hidden="true" viewBox="0 0 16 16"class="h-4 w-4 fill-current text-gray-500">
                                 <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"></path>
                             </svg>
-                            <span>Develop</span>
+                            <span>develop</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                             </svg>
@@ -208,7 +208,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                             </svg>
                         </button>
-                        <button class="border flex border-green-600 bg-btn-green hover:bg-btn-green-dark rounded-md font-semibold items-center  px-3 py-1 space-x-1 text-white">
+                        <button class="border flex border-green-600 bg-btn-green hover:bg-btn-green-dark rounded-md font-semibold items-center  px-3 py-1 space-x-2 text-white">
                             <svg class="h-4 w-4 fill-current" viewBox="0 0 16 16" aria-hidden="true">
                                 <path fill-rule="evenodd" d="M7.47 10.78a.75.75 0 001.06 0l3.75-3.75a.75.75 0 00-1.06-1.06L8.75 8.44V1.75a.75.75 0 00-1.5 0v6.69L4.78 5.97a.75.75 0 00-1.06 1.06l3.75 3.75zM3.75 13a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5z">
                                 </path>
@@ -220,13 +220,299 @@
                         </button>
                     </div>
                 </div>
+                <div class="commits-container bg-blue-50 rounded-md rounded-b-none border border-blue-200 border-b-0 flex items-center justify-between px-4 py-4 mt-5">
+                    <div class="flex items-center space-x-2">
+                        <a href="#">
+                            <img src="https://avatars.githubusercontent.com/u/58791337?s=60&amp;v=4" alt="@scottdsnr" class="w-5 h-5 rounded-full bg-white">
+                        </a>
+                        <a href="#" class="font-semibold hover:underline">scottdsnr</a>
+                        <a href="#" class="hover:text-blue-400">Merge branch 'feature/Users' into develop</a>
+                    </div>
+                    <div class="flex items-end space-x-3">
+                        <a href="#" class="hover:text-blue-400 font-mono text-xs">
+                            1f89d61
+                        </a>
+                        <a href="#" class=" hover:underline hover:text-blue-400">on 8 Feb</a>
+                        <a href="#" class="hover:text-blue-400 flex space-x-1">
+                            <span>
+                                <svg aria-hidden="true" viewBox="0 0 16 16"  class="fill-current  w-4 h-4"   >
+                                    <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"></path>
+                                </svg>
+                            </span>
+                            <span>
+                               <span class="font-semibold">9</span> commits
+                            </span>
+                        </a>
+                    </div>
+                </div>{{--end commits container--}}
+                <div class="file-explorer rounded-md rounded-t-none border border-gray-300 text-gray-700 divide-y divide-gray-200">
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="Directory" aria-hidden="true" viewBox="0 0 16 16" class="h-4 w-4 fill-current text-blue-400">
+                                <path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">.idea</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">started user management</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="Directory" aria-hidden="true" viewBox="0 0 16 16" class="h-4 w-4 fill-current text-blue-400">
+                                <path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">app</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">fixed default profile image to show users initials</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="Directory" aria-hidden="true" viewBox="0 0 16 16" class="h-4 w-4 fill-current text-blue-400">
+                                <path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">bootstrap</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">framwork install</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="Directory" aria-hidden="true" viewBox="0 0 16 16" class="h-4 w-4 fill-current text-blue-400">
+                                <path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">config</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">fixed default profile image to show users initials</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
 
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="Directory" aria-hidden="true" viewBox="0 0 16 16" class="h-4 w-4 fill-current text-blue-400">
+                                <path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">database</a></div>
+                        <div class="w-6/12">
+                            <a href="#" class="hover:underline hover:text-blue-400">
+                                added first name and last name to login and team creation...
+                            </a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="Directory" aria-hidden="true" viewBox="0 0 16 16" class="h-4 w-4 fill-current text-blue-400">
+                                <path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">public</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">started user management</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="Directory" aria-hidden="true" viewBox="0 0 16 16" class="h-4 w-4 fill-current text-blue-400">
+                                <path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">resources</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">changed all refs to teams to workspace in nav menu</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="Directory" aria-hidden="true" viewBox="0 0 16 16" class="h-4 w-4 fill-current text-blue-400">
+                                <path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">routes</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">started user management</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="Directory" aria-hidden="true" viewBox="0 0 16 16" class="h-4 w-4 fill-current text-blue-400">
+                                <path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">storage</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">framework install</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="Directory" aria-hidden="true" viewBox="0 0 16 16" class="h-4 w-4 fill-current text-blue-400">
+                                <path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">storage</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">framework install</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" class="w-4 h-4 fill-current text-gray-400">
+                                <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">.editorconfig</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">framework install</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" class="w-4 h-4 fill-current text-gray-400">
+                                <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">.env.example</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">framework install</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" class="w-4 h-4 fill-current text-gray-400">
+                                <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">.gitattributes</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">framework install</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" class="w-4 h-4 fill-current text-gray-400">
+                                <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">.gitignore</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">framework install</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" class="w-4 h-4 fill-current text-gray-400">
+                                <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">.styleci.ymle</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">framework install</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" class="w-4 h-4 fill-current text-gray-400">
+                                <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">README.md</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">framework install</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" class="w-4 h-4 fill-current text-gray-400">
+                                <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">artisan</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">framework install</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" class="w-4 h-4 fill-current text-gray-400">
+                                <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">composer.json</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">framework install</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" class="w-4 h-4 fill-current text-gray-400">
+                                <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">composer.lock</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">framework install</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" class="w-4 h-4 fill-current text-gray-400">
+                                <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">package-lock.json</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">framework install</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" class="w-4 h-4 fill-current text-gray-400">
+                                <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">package.json</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">framework install</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" class="w-4 h-4 fill-current text-gray-400">
+                                <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">phpunit.xml</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">framework install</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" class="w-4 h-4 fill-current text-gray-400">
+                                <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">server.php</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">framework install</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" class="w-4 h-4 fill-current text-gray-400">
+                                <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">tailwind.condig.js</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">framework install</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                    <div class="flex justify-between px-4 py-2 hover:bg-gray-100">
+                        <div class="w-4/12 flex items-center space-x-4">
+                            <svg aria-label="File" aria-hidden="true" viewBox="0 0 16 16" class="w-4 h-4 fill-current text-gray-400">
+                                <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
+                            </svg>
+                            <a href="#" class="hover:underline hover:text-blue-400">webpack.mix.js</a></div>
+                        <div class="w-6/12"><a href="#" class="hover:underline hover:text-blue-400">framework install</a></div>
+                        <div class="w-2/12 text-right">4 months ago</div>
+                    </div>
+                </div> {{--end commits container--}}
+
+                <div class="readme-container rounded-md border border-gray-300 px-4 py-4 mt-4">
+                    <h4 class="font-semibold">README.md</h4>
+                    <div>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eligendi error ex fugit in incidunt ipsam libero magni modi nihil non nostrum, nulla quasi quia quibusdam quidem repudiandae sunt vitae. A aspernatur assumenda, at doloribus ducimus eius enim id ipsam modi nam nobis omnis quo, quos ratione repudiandae sed tempore, tenetur vel. Dicta, dolor eos est eum explicabo odit quo rerum. Alias amet aspernatur autem consectetur cumque distinctio dolor earum harum hic id impedit iusto laborum minus modi molestias necessitatibus neque numquam odit, officiis quisquam quod sint ullam vel velit voluptatum. Aliquid distinctio doloremque ea eaque velit? Accusantium amet autem cumque dolorem, doloremque ducimus ea eius error, est excepturi fugiat id laborum maxime nemo possimus praesentium tempora voluptate voluptatem! Alias beatae consequatur earum enim eum ex fugit ipsa laboriosam libero molestiae, mollitia natus, obcaecati odit omnis perspiciatis porro qui, temporibus voluptates. Quasi qui repellat repellendus! Alias aspernatur beatae commodi consectetur cumque deserunt ea eligendi hic laboriosam maiores maxime minima molestiae nulla porro praesentium provident, quia ratione saepe sapiente sequi ullam veritatis voluptatibus? Architecto deserunt iure laboriosam modi neque nesciunt nobis odit perferendis praesentium quia quibusdam, quo, reprehenderit suscipit. Aliquam commodi dolorem dolorum enim, est nihil pariatur quo ut velit voluptatum.
+                    </div>
+                </div> {{--end commits container--}}
             </main>
             <aside class="w-1/4">
 
             </aside>
         </div>
-
+        <footer class="container w-2/3 mx-auto text-xs border-t border-gray-300 py-10 flex items-center justify-between">
+            <ul class="flex items-center space-x-12">
+                <li>&copy; 2021 GitHub, Inc.</li>
+                <li><a href="#" class="text-blue-500 hover:underline">Terms</a></li>
+                <li><a href="#" class="text-blue-500 hover:underline">Privacy</a></li>
+                <li><a href="#" class="text-blue-500 hover:underline">Security</a></li>
+                <li><a href="#" class="text-blue-500 hover:underline">Status</a></li>
+                <li><a href="#" class="text-blue-500 hover:underline">Docs</a></li>
+            </ul>
+            <div class="mx-12">
+                <a href="#">
+                    <svg class="h-6 w-6 text-gray-300 fill-current " viewBox="0 0 16 16"  aria-hidden="true">
+                        <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                    </svg>
+                </a>
+            </div>
+            <ul class="flex items-center space-x-12">
+                <li><a href="#" class="text-blue-500 hover:underline">Contact GitHub</a></li>
+                <li><a href="#" class="text-blue-500 hover:underline">Pricing</a></li>
+                <li><a href="#" class="text-blue-500 hover:underline">API</a></li>
+                <li><a href="#" class="text-blue-500 hover:underline">Training</a></li>
+                <li><a href="#" class="text-blue-500 hover:underline">Blog</a></li>
+                <li><a href="#" class="text-blue-500 hover:underline">About</a></li>
+            </ul>
+        </footer>
     </div>
     </body>
 </html>
